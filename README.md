@@ -1,13 +1,5 @@
-# Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+yarn install -> "To start with"
+yarn hardhat compile -> "To compile the code and create artifacts"
+yarn hardhat run scripts/deploy.js --network localhost -> "To deploy the script on the locan network of accounts spun up by hardhat"
+yarn hardhat test -> "To run the test scripts that were written to test the contract and its functionalities"
+yarn hardhat coverage -> "To check the test coverage of the contract"
